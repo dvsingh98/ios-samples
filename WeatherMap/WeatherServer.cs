@@ -100,6 +100,17 @@ namespace WeatherMap
 					Low = 75,
 					Condition = WeatherConditions.Thunderstorms
 				});
+				
+				///Weather details being used are based on the yearly average as per usclimatedata.com
+				store.Insert (new WeatherForecast () {
+					Place = "Fayetteville",
+					Latitude = 36.082157,
+					Longitude = -94.171852,
+					High = 68,
+					Low = 48,
+					Condition = WeatherConditions.PartlyCloudy
+				});
+
 
 				store.Commit ();
 			}
