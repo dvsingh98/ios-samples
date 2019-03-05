@@ -87,7 +87,7 @@ namespace WeatherMap
 
 				// Create the location & temperature string
 				WeatherForecast forecast = annotation.Forecast;
-				NSString temperature = new NSString (string.Format ("{0}\n{1} / {2}", forecast.Place, forecast.High, forecast.Low));
+				NSString temperature = new NSString (string.Format ("{0}\n{1} / {2}\n{3}", forecast.Place, forecast.High, forecast.Low, forecast.WindChill));
 
 				// Draw the text in black
 				UIColor.Black.SetColor ();
