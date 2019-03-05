@@ -51,8 +51,9 @@ namespace WeatherMap
 					Place = "S.F.",
 					Latitude = 37.779941,
 					Longitude = -122.417908,
-					High = 80,
-					Low = 50,
+					High = 57,
+					Low = 54,
+					WindChill = 51,
 					Condition = WeatherConditions.Sunny
 				});
 
@@ -60,8 +61,9 @@ namespace WeatherMap
 					Place = "Denver",
 					Latitude = 39.752601,
 					Longitude = -104.982605,
-					High = 40,
-					Low = 30,
+					High = 36,
+					Low = 20,
+					WindChill = 14,
 					Condition = WeatherConditions.Snow
 				});
 
@@ -69,8 +71,9 @@ namespace WeatherMap
 					Place = "Chicago",
 					Latitude = 41.863425,
 					Longitude = -87.652359,
-					High = 45,
-					Low = 29,
+					High = 21,
+					Low = 11,
+					WindChill = -1,
 					Condition = WeatherConditions.Cloudy
 				});
 
@@ -78,8 +81,9 @@ namespace WeatherMap
 					Place = "Seattle",
 					Latitude = 47.615884,
 					Longitude = -122.332764,
-					High = 75,
-					Low = 45,
+					High = 48,
+					Low = 35,
+					WindChill = 34,
 					Condition = WeatherConditions.Showers
 				});
 
@@ -87,8 +91,9 @@ namespace WeatherMap
 					Place = "Boston",
 					Latitude = 42.350425,
 					Longitude = -71.070557,
-					High = 75,
-					Low = 45,
+					High = 31,
+					Low = 19,
+					WindChill = 16,
 					Condition = WeatherConditions.PartlyCloudy
 				});
 
