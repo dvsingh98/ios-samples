@@ -107,7 +107,7 @@ namespace WeatherMap
 					Condition = WeatherConditions.Thunderstorms
 				});
 				
-				///Weather details being used are based on the data on 3/5/19
+				///Weather details being used are based on the data on 3/5/19 from AccuWeather.com
 				store.Insert (new WeatherForecast () {
 					Place = "Fayetteville",
 					Latitude = 36.082157,
