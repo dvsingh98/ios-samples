@@ -45,6 +45,13 @@ namespace WeatherMap
 		public int High {
 			get; set;
 		}
+		
+		///For the Wind Chill
+		public int WindChill
+		{
+			get;
+			set;
+		}
 
 		public WeatherConditions Condition {
 			get; set;
