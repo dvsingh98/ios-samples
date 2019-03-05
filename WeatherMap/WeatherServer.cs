@@ -96,18 +96,20 @@ namespace WeatherMap
 					Place = "Miami",
 					Latitude = 25.780107,
 					Longitude = -80.244141,
-					High = 90,
-					Low = 75,
+					High = 83,
+					Low = 57,
+					WindChill = 81,
 					Condition = WeatherConditions.Thunderstorms
 				});
 				
-				///Weather details being used are based on the yearly average as per usclimatedata.com
+				///Weather details being used are based on the data on 3/5/19
 				store.Insert (new WeatherForecast () {
 					Place = "Fayetteville",
 					Latitude = 36.082157,
 					Longitude = -94.171852,
-					High = 68,
-					Low = 48,
+					High = 35,
+					Low = 13,
+					WindChill = 17,
 					Condition = WeatherConditions.PartlyCloudy
 				});
 
